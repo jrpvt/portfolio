@@ -979,26 +979,26 @@ var myWork = [{
   'desc': "This is a test description",
   'image': {
     'desc': "example screenshot of a project involving Ansible",
-    'src': "images/example1.png",
-    'comment': "test"
+    'src': "images/example11.png",
+    'comment': "Image credit: Red Hat"
   }
 }, {
   'title': "Desktop Virtualization",
   'href': "http://images.nvidia.com/content/grid/case-study/pdf/nvidia-grid-case-study-villanova-mar-2015.pdf",
-  'desc': "This is a test description",
+  'desc': 'The only thing that matters is user experience.  The vDesktop project began a couple years ago when Asi Lavon, Desktop Administrator, and I\n    were asked to research desktop virtualization as an upgrade option for aging computer labs around campus.\n    On a slim to nothing budget we upgraded previously decommissioned server hardware with consumer-grade SSDs.\n    Initially we tested VDI-in-a-Box (previously Kaviza) on XenServer (sucked), Hyper-V (sucked too) and ESXi.\n    After settling with ESXi and procuring newer 12th-gen Dell PowerEdge R720s, we began our first production buildout, focused on replacing an aging general purpose computer lab.\n    Rather than purchasing thin clients, we re-provisioned the existing lab workstations with SSDs, imaged with a custom Windows 7 Thin PC build that we configured.\n    Immediate benefits with the non-persistent virtual desktops included faster login times and single image management.\n    An added benefit was the ability to quickly provision different images within the same day to the entire lab depending on class requirements.\n    Building off of the success of the lab, vDesktop not only improved labs across the university but paved the way for a BYOD option for students.\n    Rather than mandating a certain type of laptop, students could now bring their preferred device on campus and access a virtual desktop for all academic applications.\n    The last part of the project focused on further improving user experience, specifically with graphics-intensive applications.\n    Several PowerEdge R720s were upgraded with NVIDIA GRID K1 cards, offloading CPU cycles with graphics cards designed to render 3D applications much much faster.\n    A case study by NVIDIA summarizes just a part of this project that Asi and I spent years building out that is still in place today.',
   'image': {
     'desc': "example screenshot of a project involving Desktop Virtualization",
-    'src': "images/example2.png",
-    'comment': "test"
+    'src': "images/example21.png",
+    'comment': "Image credit: VMware"
   }
 }, {
   'title': "PowerShell",
   'href': "https://github.com/jrpvt/azure-dev",
-  'desc': "This is a test description",
+  'desc': "PowerShell script examples on GitHub...more to come...",
   'image': {
     'desc': "example screenshot of a project involving PowerShell",
-    'src': "images/example3.png",
-    'comment': '\u201CBengal cat\u201D by roberto shabs is licensed under CC BY 2.0\n                 https://www.flickr.com/photos/37287295@N00/2540855181*/'
+    'src': "images/example31.png",
+    'comment': 'Image link: https://www.firstpoint.no/creating-menus-in-powershell/'
   }
 }];
 
